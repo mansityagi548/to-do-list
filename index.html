@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do-list</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <main class="todo-container">
+    <header class="todo-header">
+      <h1>TODO</h1>
+      <button class="theme-toggle" aria-label="Toggle light/dark mode">
+        <img src="assests/icon-sun.svg" alt="" class="icon-sun">
+        <img src="assests/icon-moon.svg" alt="" class="icon-moon">
+      </button>
+    </header>
+
+    <div class="input-container">
+      <div class="circle"></div>
+      <input type="text" placeholder="Add task" aria-label="Create a new todo"  id="task-input" autocomplete="off">
+    </div>
+
+    <section class="todo-card">
+      <ul class="todo-list">
+      </ul>
+
+      <footer class="todo-footer">
+        <span class="items-left"></span>
+        <div class="filters">
+          <button class="filter-btn active" id="all">All</button>
+          <button class="filter-btn" >Active</button>
+          <button class="filter-btn" >Completed</button>
+        </div>
+        <button class="clear-btn">Clear Completed</button>
+      </footer>
+    </section>
+
+      <div class="mobile-filters">
+      <button class="filter-btn" >All</button>
+      <button class="filter-btn" >Active</button>
+      <button class="filter-btn" >Completed</button>
+    </div>
+
+    <p class="drag-hint">Drag and drop to reorder list</p>
+  </main>
+
+  <script type="module" src="script/script.js"></script>
+</body>
+</html>
