@@ -77,13 +77,9 @@ Clone the repository
 
 bash:
 
-git clone https://github.com/your-username/todo-app.git
+git clone https://github.com/mansityagi548/to-do-list.git
 
 Open the project
-
-bash 
-
-cd todo-app
 
 Run it — just open index.html in your browser!
 
